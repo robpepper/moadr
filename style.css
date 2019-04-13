@@ -1,0 +1,491 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body {
+	margin:0px auto;
+	padding:0;
+	font-size:14px;
+	font-family:"雅黑";
+	background:#fff;
+}
+dl, dt, dd, ol, ul, li,fieldset, form, label, legend{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	outline: 0px;
+	vertical-align: baseline;
+	background: transparent;
+	list-style:none;
+	list-style-type:none
+}
+
+a:link {color: #555; text-decoration:none;}
+a:visited {color: #555; text-decoration:none;}
+a:hover {color: #f60; text-decoration:none;}
+a:active {color: #555; text-decoration:none;}
+
+input,form,ul,li,p,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+input,select{font-size:12px;line-height:16px;}
+img{border:0;}
+ul{list-style-type:none;}
+.clear{ width:100%; height:0px; line-height:0px; font-size:0px; clear:both;overflow:hidden}
+.clear10{ clear:both;width:100%;height:10px; overflow:hidden}
+.fl{float:left}
+.fr{float:right}
+.fn{float:right}
+
+.main{width: 100%;min-width: 1120px;width: expression_r( document.body.clientWidth < 1120 ? "1120px" : "auto" );}
+
+/* head start */
+.header{width:100%;height:103px;background:#55cc55;}
+.header_1{width:100%;height:33px;background:#222223}
+.header_1 .header_1_c {width:1120px;height:33px;margin:0px auto}
+.header_1 .header_1_c .fl a{width:22px;height:22px;margin:5px;float:left;display:block; cursor:default}
+.header_1 .header_1_c .ap{background:url(/web/20160319101919im_/http://moadr.com/images/top_ap_1.png) no-repeat 0 center;_background:url(/web/20160319101919im_/http://moadr.com/images/top_ap_1.jpg) no-repeat 0 center;}
+.header_1 .header_1_c .yun{background:url(/web/20160319101919im_/http://moadr.com/images/top_yun_1.png) no-repeat 0 center;_background:url(/web/20160319101919im_/http://moadr.com/images/top_yun_1.jpg) no-repeat 0 center;}
+.header_1 .header_1_c .weixin{background:url(/web/20160319101919im_/http://moadr.com/images/top_weibo_1.png) no-repeat 0 center;_background:url(/web/20160319101919im_/http://moadr.com/images/top_weibo_1.jpg) no-repeat 0 center;}
+.header_1 .header_1_c .weibo{background:url(/web/20160319101919im_/http://moadr.com/images/top_weixin_1.png) no-repeat 0 center;_background:url(/web/20160319101919im_/http://moadr.com/images/top_weixin_1.jpg) no-repeat 0 center;}
+.header_1 .header_1_c .ap:hover{background:url(/web/20160319101919im_/http://moadr.com/images/top_ap_2.png) no-repeat 0 center;_background:url(/web/20160319101919im_/http://moadr.com/images/top_ap_2.jpg) no-repeat 0 center;}
+.header_1 .header_1_c .yun:hover{background:url(/web/20160319101919im_/http://moadr.com/images/top_yun_2.png) no-repeat 0 center;_background:url(/web/20160319101919im_/http://moadr.com/images/top_yun_2.jpg) no-repeat 0 center;}
+.header_1 .header_1_c .weixin:hover{background:url(/web/20160319101919im_/http://moadr.com/images/top_weibo_2.png) no-repeat 0 center;_background:url(/web/20160319101919im_/http://moadr.com/images/top_weibo_2.jpg) no-repeat 0 center;}
+.header_1 .header_1_c .weibo:hover{background:url(/web/20160319101919im_/http://moadr.com/images/top_weixin_2.png) no-repeat 0 center;_background:url(/web/20160319101919im_/http://moadr.com/images/top_weixin_2.jpg) no-repeat 0 center;}
+.header_1 .header_1_c .fr{color:#929292;  margin-top: 8px;}
+.header_1 .header_1_c .fr a{color:#929292;}
+.header_1 .header_1_c .fr a:hover{color:#b7642d !important;}
+.header_2{width:1120px;height:auto !important; min-height:60px; _height:60px;margin:0px auto}
+
+.header_2 .logo img{  margin-top: 6px;height:60px;}
+.header_2 .menu {height: 38px;padding-top: 17px;padding-right: 8px;}
+.header_2 .menu ul {height: 38px;}
+.header_2 .menu li {text-align:center;width:108px;height:34px;float: left;margin:0px 0px 0px 30px;}
+.header_2 .menu li a{width:108px;height: 32px;line-height: 32px; padding:0px 0px 2px 0px;display: block;color:#FFFFFF; font-size:14px}
+.header_2 .menu li a.selected,.header_2 .menu li a:hover{background-color:lightgreen; no-repeat;_background:url(/web/20160319101919im_/http://moadr.com/images/menu.jpg) no-repeat; }
+/* head end */
+
+.slide{width: 100%;height:500px; position:relative;}
+.slide .box{ width:100%;height:500px; position:absolute;left:0px;top:0px; right:0px; z-index:1; overflow:hidden}
+.slide .box.box-1{background:#d9d1cf url(/web/20160319101919im_/http://moadr.com/images/banner1.jpg) no-repeat center;}
+.slide .box.box-2{background:#2f698b url(/web/20160319101919im_/http://moadr.com/images/banner2.jpg) no-repeat center;}
+.slide .box .box-item{ width: 1120px;margin:0px auto; text-align:center; padding:75px 0px 0px 0px}
+.slide .box .box-item img{margin:20px auto 0px auto;}
+.slide .box .box-item .box-item-btn{width:100%;height:141px;background:url(/web/20160319101919im_/http://moadr.com/images/we.png) no-repeat 0 center;margin:36px auto;}
+.slide .box .box-item .box-item-btn:hover{ background:url(/web/20160319101919im_/http://moadr.com/images/banner_1_3.png) no-repeat 0 center; }
+.slide .box .box-item .box-item-btn2{display:block;width:1oo%;height:141px;background:url(/web/20160319101919im_/http://moadr.com/images/b_2_3.png) no-repeat 0 center;margin:16px auto;}
+.slide .box .box-item .box-item-btn2:hover{ background:url(/web/20160319101919im_/http://moadr.com/images/b_2_4.png) no-repeat 0 center; }
+
+
+.index-1{ background:#FFF;margin:0px auto;padding:80px 0px;}
+.index-1 .content{width: 1120px;margin:0px auto; text-align:center;}
+.index-1 .content .tit {height: 48px;color: #333;font-size: 30px;line-height: 48px;text-align: center; font-weight:normal}
+.index-1 .content .txt {color: #929292;text-align: center;}
+.index-1 .content .px16{font-size:16px;}
+.index-1 .content .maC_txt{  font-size: 12px;line-height: 20px;text-align: center;padding: 50px 0px 0px;}
+
+.index-2 {
+  padding:60px 0px;
+  background-color: #ebebeb;
+}
+.index-2 .content{width: 1120px;margin:0px auto; text-align:center;}
+.index-2 .content li {
+  width: 304px;
+  height: 299px;
+  display:inline-block;
+  *display:inline;
+  *zoom:1;
+  margin: 0 18px 0px 0px;
+}
+
+.index-2 .content li a{display:block;width:100%;height:50%;}
+.index-2 .content li .bg_1{background:url(/web/20160319101919im_/http://moadr.com/images/bg_1_1.jpg) no-repeat 0 center;}
+.index-2 .content li .bg_2{background:url(/web/20160319101919im_/http://moadr.com/images/bg_2_1.jpg) no-repeat 0 center;}
+.index-2 .content li .bg_3{background:url(/web/20160319101919im_/http://moadr.com/images/bg_3_1.jpg) no-repeat 0 center;}
+.index-2 .content li .bg_1:hover{background:url(/web/20160319101919im_/http://moadr.com/images/bg_1_2.jpg) no-repeat 0 center;}
+.index-2 .content li .bg_2:hover{background:url(/web/20160319101919im_/http://moadr.com/images/bg_2_2.jpg) no-repeat 0 center;}
+.index-2 .content li .bg_3:hover{background:url(/web/20160319101919im_/http://moadr.com/images/bg_3_2.jpg) no-repeat 0 center;}
+
+.index-3{ background:#FFF;margin:0px auto;padding:80px 0px;}
+.index-3 .content{width: 1120px;margin:0px auto; text-align:center;}
+.index-3 .content .tit {height: 48px;color: #333;font-size: 30px;line-height: 48px;text-align: center; font-weight:normal}
+.index-3 .content .txt {color: #929292;text-align: center;}
+.index-3 .content .px16{font-size:16px;}
+.index-3 .content .huoban{padding-top: 45px;}
+.index-3 .content .huoban a{display:block;float:left;margin-left:33px;margin-bottom:21px; cursor:default}
+.index-3 .content .huoban .first{margin-left:0px;}
+.index-3 .content .huoban img{width:71px;height:71px;}
+.index-3 .content .tit a.more{background:url(/web/20160319101919im_/http://moadr.com/images/more_1.jpg) no-repeat 0 center;  width: 171px;height: 38px;margin: 0px auto;display: block;margin-top:10px;margin-bottom:70px;cursor:default}1
+.index-3 .content .tit a.more:hover{background:url(/web/20160319101919im_/http://moadr.com/images/more_2.jpg) no-repeat 0 center;}
+
+.footer{height:125px;padding-top:33px;color:#b3b3b3 ;  background: url(/web/20160319101919im_/http://moadr.com/images/foot.jpg) repeat-x 0 center;}
+.footer .content{width: 1120px;margin:0px auto; position:relative}
+.footer .content a{color:#b3b3b3}
+.footer .content a:hover{color:white}
+.footer .content .fl p{float:left;display:block;  margin-top: 10px; line-height:1.8 }
+.footer .content .fl img{float:left;width:60px;height:60px;}
+.footer .content .tel{float:left;width:42px;height:42px;margin: 10px 18px 0px 0px; display:block; background:url(/web/20160319101919im_/http://moadr.com/images/tel.png) no-repeat center;_background:url(/web/20160319101919im_/http://moadr.com/images/tel.gif) no-repeat center;
+position: relative;-webkit-border-radius:21px 21px 21px 21px;-moz-border-radius:21px 21px 21px 21px;border-radius:21px 21px 21px 21px;behavior: url(/web/20160319101919im_/http://moadr.com/html5/PIE.htc); overflow:hidden}
+.footer .content .white{color:#ffffff}
+.footer .content .tR {text-align: right!important;}
+.footer .content .banquan{font-size:12px;margin-top: 20px;}
+
+.bottom{height:50px;background-color:#333333;}
+.bottom .content{width: 1120px;margin:0px auto;}
+.bottom .content .tR {text-align: right!important;}
+.bottom .content  a{width:35px;height:35px;margin:5px;display:block;float: left;cursor:default}
+.bottom .content .ap{background:url(/web/20160319101919im_/http://moadr.com/images/bottom_ap_1.jpg) no-repeat 0 center;}
+.bottom .content .yun{background:url(/web/20160319101919im_/http://moadr.com/images/bottom_yun_1.jpg) no-repeat 0 center;}
+.bottom .content .weixin{background:url(/web/20160319101919im_/http://moadr.com/images/bottom_weibo_1.jpg) no-repeat 0 center;}
+.bottom .content .weibo{background:url(/web/20160319101919im_/http://moadr.com/images/bottom_weixin_1.jpg) no-repeat 0 center;}
+.bottom .content .ap:hover{background:url(/web/20160319101919im_/http://moadr.com/images/bottom_ap_2.jpg) no-repeat 0 center;}
+.bottom .content .yun:hover{background:url(/web/20160319101919im_/http://moadr.com/images/bottom_yun_2.jpg) no-repeat 0 center;}
+.bottom .content .weixin:hover{background:url(/web/20160319101919im_/http://moadr.com/images/bottom_weibo_2.jpg) no-repeat 0 center;}
+.bottom .content .weibo:hover{background:url(/web/20160319101919im_/http://moadr.com/images/bottom_weixin_2.jpg) no-repeat 0 center;}
+
+.banner {width: 100%;min-width: 1120px;width: expression_r( document.body.clientWidth < 1120 ? "1120px" : "auto" );height: 530px;}
+.banner.banner_about{ background:url(/web/20160319101919im_/http://moadr.com/images/guanyu.jpg) center no-repeat ;}
+.banner.banner_developer{ background:url(/web/20160319101919im_/http://moadr.com/images/banner.jpg) center no-repeat ;}
+.banner.banner_news{ background:url(/web/20160319101919im_/http://moadr.com/images/news.jpg) center no-repeat ;}
+.banner.banner_advertisers{ background:url(/web/20160319101919im_/http://moadr.com/images/guanggaozhubanner.jpg) center no-repeat ;}
+
+
+.developer{ background:#FFF;margin:0px auto;padding:80px 0px;}
+.developer .content{width: 1120px;margin:0px auto;}
+.developer .content .tab li{  text-align: center;width: 371px;height: 57px;float: left;list-style-type: none !important}
+.developer .content .tab a{line-height:57px;font-size:24px;color:#929292;display:block;width:100%;height:100%;background:url(/web/20160319101919im_/http://moadr.com/images/kaifa_b1.jpg) no-repeat 0 center;cursor:pointer;list-style-type: none;}
+.developer .content .tab a.cur{color:white;background:url(/web/20160319101919im_/http://moadr.com/images/kaifa_b2.jpg) no-repeat 0 center;}
+.developer .content .tuisongl{margin-top:70px;}
+.developer .content .tuisong2{margin-top:70px;margin-left:82px;}
+.developer .content .bigh{font-size: 40px;color: #01aaad;}
+.developer .content  p{  line-height: 24px;color:#929292}
+.developer .content li{  line-height: 26px;color:#929292;list-style-type: none;}
+.developer .content ul{ list-style-type: disc;list-style-position: inside;}
+.developer .content .tuisong2 ul{margin-top: 60px; list-style-type: disc;list-style-position: inside;}
+.developer .content .youshi{width: 371px;background: url(/web/20160319101919im_/http://moadr.com/images/youshi.jpg) no-repeat 0 center;height: 134px;margin-top:50px;padding:20px 25px;}
+.developer .content .bigh2{font-size:22px;color: #01aaad;}
+.developer .content .xuanfu li{width:288px;float:left;}
+.developer .content .xuanfu {margin-left: 190px;}
+.developer .content .kaifaptop3px{margin-top:4px;}
+.developer .content .tabdiv li {
+  background: url(/web/20160319101919im_/http://moadr.com/images/kaifazheli.png) no-repeat 0 center;
+  padding-left: 18px;
+}
+
+
+.advertisers-1{ background:#FFF;margin:0px auto;}
+.advertisers-1 .content{width: 80%;height:500px;margin:0px auto; valign:top; background:url(images/mobileads.png) no-repeat center; position:relative}
+.advertisers-1 .content .advertisers-icon{width:170px;height:0px; background:url(images/icon-ggywys-1.jpg) no-repeat; position:absolute; left:0px;top:70px;}
+.advertisers-1 .content .advertisers-text{width:200px;position:absolute}
+.advertisers-1 .content .advertisers-text h1{color:#01aaad;font-size:18px; font-family:'微软雅黑';}
+.advertisers-1 .content .advertisers-text p{color:#b3b3b3;font-size:12px; font-family:'微软雅黑';margin:10px 0px 0px 0px; line-height:1.5}
+.advertisers-1 .content .advertisers-text.ptxt-1{ top:50px;left:60px;}
+.advertisers-1 .content .advertisers-text.ptxt-2{ top:50px;left:845px;}
+.advertisers-1 .content .advertisers-text.ptxt-3{ top:150px;left:60px;}
+.advertisers-1 .content .advertisers-text.ptxt-4{ top:150px;left:845px;}
+.advertisers-1 .content .advertisers-text.ptxt-5{ top:275px;left:60px;}
+.advertisers-1 .content .advertisers-text.ptxt-6{ top:275px;left:845px;}
+
+
+.advertisers-2{height:10px; background:url(images/mobileads.jpg) no-repeat center center;margin:0px auto;}
+.advertisers-2 .content{width: 100%;margin:0px auto;padding:240px 0px 0px 0px; }
+.advertisers-2 .content .advertisers-text{float:left;width:222px;height:20px;background:url() no-repeat 0 center; margin-left:80px;_margin-left:60px; margin-top:80px;padding:30px 30px 30px 30px;cursor:pointer; text-align:center; overflow:hidden;position: relative;-webkit-border-radius:282px 282px 282px 282px;-moz-border-radius:282px 282px 282px 282px;border-radius:282px 282px 282px 282px;behavior: url(/web/20160319101919im_/http://moadr.com/PIE.htc);}
+.advertisers-2 .content .advertisers-text:hover{background: url(/web/20160319101919im_/http://moadr.com/images/ggzb2.png) no-repeat 0 center;  }
+.advertisers-2 .content .advertisers-text h1{color:#fff;font-size:31px; font-family:'微软雅黑';padding:20px; 0px 0px 0px; }
+.advertisers-2 .content .advertisers-text p{color:#fff;font-size:14px; font-family:'微软雅黑';padding:10px 0px 0px 0px; line-height:1.5; text-align:left;}
+
+.news{margin:0px auto;}
+.news .localtion{margin:0px auto;padding:30px 0px 0px 0px;height:58px; border-bottom:1px solid #d9d9d9 }
+.news .localtion .map{ width: 1120px;margin:0px auto;line-height:58px;font-size:18px;color:#8a8a8a}
+.news .localtion .map span{color:#8a8a8a;margin:0px 10px 0px 0px; font-weight:100}
+.news .localtion .map .selected{color:#e66315}
+.news .content{width: 1120px;margin:30px auto;padding:0px 0px 0px 0px; }
+.news .content .left{width:224px; float:left;}
+.news .content .right{width:850px; float:right;/*height:auto !important;*/min-height:500px;_height:500px; }
+.news .content .left .nav ul,.news .content .left .nav li{list-style:none;margin:0px;padding:0px;}
+.news .content .left .nav li{height:30px; line-height:30px;margin:0px auto 5px auto;padding:0px 20px;}
+.news .content .left .nav li a{color:#9a9a9a; display:block}
+.news .content .left .nav li.selected,.news .content .left .nav li:hover{ background:#53dfd5}
+.news .content .left .nav li.selected a,.news .content .left .nav li:hover a{color:#fff}
+.news .content .right .news-channel{ font-size:24px;color:#8a8a8a; font-weight:300; border-bottom:1px solid #d9d9d9;padding:0px 0px 10px 0px;margin:0px 0px 20px 0px}
+.news .content .right .news-list ul,.news .content .right .news-list li{list-style:none;margin:0px;padding:0px;}
+.news .content .right .news-list li{width:100%;margin:0px auto 20px auto;font-size:14px; border-bottom:1px solid #d9d9d9;padding:0px 0px 20px 0px; line-height:1.5}
+.news .content .right .news-list li span.date{color:#9a9a9a}
+.news .content .right .news-list li h1{color:#88bbee; font-size:16px;margin:0px 0px 10px 0px; font-weight:200}
+.news .content .right .news-list li h1 a{color:#88bbee}
+.news .content .right .news-list li p{color:#9a9a9a}
+
+.news .content .right .noDate{width:100%;margin:0px auto 20px auto;font-size:14px; border-bottom:1px solid #d9d9d9;padding:0px 0px 20px 0px; line-height:1.5; display:none}
+
+
+.news-info{font-size:14px; line-height:1.5}
+.news-info .date{color:#9a9a9a; text-align:left;padding:5px 0px;margin:0px 0px 10px 0px; border-bottom:1px dashed #9a9a9a;}
+.news-info .topic{color:#e96d23; font-size:18px; font-weight:500; text-align:left}
+.news-info .contents{min-height:300px;_height:300px; color:#9a9a9a}
+.news-info .PrvOrNext{color:#9a9a9a; font-weight:normal;border-top:1px dashed #9a9a9a;padding:5px 0px;margin:10px 0px 0px 0px;}
+.news-info .PrvOrNext .prv{ float:left }
+.news-info .PrvOrNext .next{float:right}
+.news-info .PrvOrNext .prv a,.news-info .PrvOrNext .next a{color: #9a9a9a; font-weight:normal; text-decoration:none;}
+.news-info .PrvOrNext .prv a:link,.news-info .PrvOrNext .next a:link{color: #9a9a9a; text-decoration:none;}
+.news-info .PrvOrNext .prv a:visited,.news-info .PrvOrNext .next a:visited{color: #9a9a9a; text-decoration:none;}
+.news-info .PrvOrNext .prv a:hover,.news-info .PrvOrNext .next a:hover{color: #f60; text-decoration:none;}
+.news-info .PrvOrNext .prv a:active，.news-info .PrvOrNext .next a:active{color: #9a9a9a; text-decoration:none;}
+
+
+.about-1{color:#929292;}
+.about-1 .content{width:1120px;height:636px; margin:0px auto;background:url(/web/20160319101919im_/http://moadr.com/images/guanyu_1.jpg) no-repeat 0 center;  }
+.about-1 .content p{text-align:center;line-height:24px;}
+.about-1 .content span{color:#e66215;}
+.about-1 .content .p1{position: relative;left: 0px;top: 115px;width: 194px;font-size: 12px;}
+.about-1 .content .p2{  position: relative;top: 350px;width: 500px;margin: 0 auto;font-size: 12px;}
+.about-1 .content .p3 {  position: relative;left: 890px; top: 70px; width: 250px;font-size: 12px;}
+
+.about-2{ background: #fdeee5; }
+.about-2 .content{  width:1120px;margin:0 auto;padding:60px 0px 80px 0px;}
+.about-2 .content .about-2-item{width: 924px;height:55px;margin:10px auto 0px auto;background:url(/web/20160319101919im_/http://moadr.com/images/about_2_tool_bg.png) no-repeat;_background:url(/web/20160319101919im_/http://moadr.com/images/about_2_tool_bg.jpg) no-repeat; overflow:hidden}
+.about-2 .content .pl{ width:62px;height:55px; font-size: 18px;color: white; line-height:55px; text-align:center}
+.about-2 .content .pr{ width:842px;height:55px;line-height:55px;  font-size: 14px;padding:0px 0px 0px 20px;color:#596768}
+.about-2 .content .about-2-item-2{  text-align: center;  width: 804px;height:87px; padding:25px 60px 0px 60px; line-height:1.8; margin:10px auto 0px auto;color:#596768;background:url(/web/20160319101919im_/http://moadr.com/images/about_2_tool_bg_2.png) no-repeat;_background:url(/web/20160319101919im_/http://moadr.com/images/about_2_tool_bg_2.jpg) no-repeat;overflow:hidden }
+
+
+
+.about-3 { height: 591px;background-color: #e1f3f4; }
+.about-3 .content{width:520px;height:591px; margin:0px auto; padding:0px 0px 0px 600px; background:url(/web/20160319101919im_/http://moadr.com/images/course-bg.jpg) no-repeat left top; position:relative }
+
+.about-3 .content .about-course-btn{ width:90px;height:38px; line-height:38px;padding:0px 25px 0px 10px; letter-spacing:2px;color:#fff;font-size:16px; text-align:center; background:url(/web/20160319101919im_/http://moadr.com/images/course-btn.jpg) no-repeat left center;position:absolute;}
+.about-3 .content .about-course-btn-1{top:120px;left:380px;}
+.about-3 .content .about-course-btn-2{top:220px;left:340px;}
+.about-3 .content .about-course-btn-3{top:320px;left:300px;}
+.about-3 .content .about-course-btn-4{top:420px;left:260px;}
+
+.about-3 .content .about-course-item{padding:120px 0px 0px 0px}
+.about-3 .content .about-course-item .about-course-child{margin:0px; line-height:1.8}
+
+.about-3 .content .about-course-item .about-course-child .pl{  font-size: 18px;color: #01aaad;}
+.about-3 .content .about-course-item .about-course-child .pr{   margin-top: 3px;font-size: 14px;margin-left: 35px;width:420px;}
+
+.about-4 { background-color: #fff; }
+.about-4 .content{width:1120px; margin:80px auto; text-align:center; line-height:1.8 }
+.about-4 .content .shinian { color:#e66215; font-size:18px;  text-align: center; margin:0px 0px 30px 0px; }
+.about-4 .content .shinianimg{  text-align: center; margin-top:40px; }
+
+
+/*默认样式，主要是position:fixed实现屏幕绝对定位*/
+#gotoTop{display:none;position:fixed;top:65%;left:50%;cursor:pointer;margin-top:-70px;margin-left:580px;padding:9px 4px;width:71px;height:71px;background:url(/web/20160319101919im_/http://moadr.com/images/top1.png) no-repeat 0 center; z-index:10000 }
+/*用CSS表达式(expression)来实现ie6下position:fixed效果*/
+#gotoTop{_position:absolute;_top:expression(documentElement.scrollTop + documentElement.clientHeight * 3/4 + "px")}
+/*鼠标进入的反馈效果*/
+#gotoTop:hover{background:url(/web/20160319101919im_/http://moadr.com/images/top2.png) no-repeat 0 center; }
+
+
+.paginator { margin-top:15px; font: 11px Arial, Helvetica, sans-serif; height:22px; line-height:22px;}
+.paginator a {padding:2px 8px; color:#848484; border: solid 1px #d5d5d5; background: #fff; text-decoration: none;margin-right:2px}
+.paginator a:link {padding:2px 8px; border: solid 1px #d5d5d5; color:#848484; background: #fff; text-decoration: none;}
+.paginator a:visited {padding:2px 8px; border: solid 1px #d5d5d5; color:#848484; background: #fff; text-decoration: none;}
+.paginator .cpb {padding:2px 8px;color:#fff; font-size: 12px;border: solid 1px #d5d5d5; background: #848484; }
+.paginator a:hover {color: #fff; background: #919191;border-color:#d5d5d5;text-decoration: none;}
+
+.center{ text-align:center}
+
+.reg-form{margin:50px auto;color:#929091;}
+.reg-form .content{width:1020px;margin:0px auto;padding:50px;border:1px solid #d5d5d5;-webkit-border-radius:5px 5px 5px 5px;-moz-border-radius:5px 5px 5px 5px;border-radius:5px 5px 5px 5px;behavior: url(/web/20160319101919im_/http://moadr.com/html5/PIE.htc); position:relative; }
+.reg-form .content .tool{width:1120px;height:40px; margin:0px auto;}
+
+
+.form-filed-topic{color:#929091;font-size:18px; border-bottom:2px solid #dedede; padding:0px 0px 20px 0px;margin:0px 0px 40px 0px;}
+.form-filed-topic span{ float:right;font-size:14px;color:#929292}
+.form-filed-topic span a{color:#fe783d;}
+.form-filed-topic span a:hover{color: #fe783d;text-decoration:underline}
+
+.form-filed-item{margin:20px 0px;color:#929091;}
+.form-filed-item select{ display:none}
+.form-filed-item .yz{position:absolute; margin:10px 0px 0px 0px;line-height:1.5;padding:5px 10px; border:1px solid #fdab49; background:#fff; color:#fdab49;-webkit-border-radius:5px 5px 5px 5px;-moz-border-radius:5px 5px 5px 5px;border-radius:5px 5px 5px 5px;behavior: url(/web/20160319101919im_/http://moadr.com/html5/PIE.htc); width: expression(this.offsetWidth > 260 ? '260px': true); max-width: 260px; }
+.form-filed-item .yz i{width:20px;height:10px; display:block; background:url(/web/20160319101919im_/http://moadr.com/images/jiantou.png) no-repeat left top; position:absolute; margin:-15px 0px 0px 20px;}
+
+
+.form-filed-item .form-filed-input{width: 367px !important;height: 48px; background:url(/web/20160319101919im_/http://moadr.com/images/shurukuang.jpg) no-repeat 0 center;color:#929091; display:inline-block; *display:inline;*zoom:1;margin:0px;padding:0px; }
+.form-filed-item .form-filed-input input{  line-height: 30px;height: 30px;width: 300px;_width: 303px;border: none;_border:0px;margin:0px 0px 0px 2px; background:none; vertical-align:middle; overflow:hidden}
+
+.form-filed-item .form-filed-input.long input{  line-height: 30px;height: 30px;width: 337px;_width: 337px;border: none;_border:0px;margin:9px 15px; background:none; vertical-align:middle; overflow:hidden}
+
+.form-filed-item .form-filed-input .icon{width:20px;height:48px;margin:0px 0px 0px 10px;padding:0px; vertical-align:middle; display:inline-block; *display:inline;*zoom:1;}
+.form-filed-item .form-filed-input .icon-bar{width:2px;margin:0px 5px;_margin:0px 8px; background:url(/web/20160319101919im_/http://moadr.com/images/shuxian.png) no-repeat center;}
+
+.form-filed-item .form-filed-input .icon-user{background:url(/web/20160319101919im_/http://moadr.com/images/yonghuming.png) no-repeat center;}
+.form-filed-item .form-filed-input .icon-pass{background:url(/web/20160319101919im_/http://moadr.com/images/mima.png) no-repeat center;}
+.form-filed-item .form-filed-input .icon-pass2{background:url(/web/20160319101919im_/http://moadr.com/images/zai.png) no-repeat center;}
+
+.form-filed-item .form-filed-input.short{width: 128px !important;height: 48px;background:url(/web/20160319101919im_/http://moadr.com/images/yzm.jpg) no-repeat 0 center; display:inline-block; *display:inline;*zoom:1;margin:0px;padding:0px;}
+.form-filed-item .form-filed-input.short input{line-height: 30px;height: 30px;width: 108px;border: none;_border:0px;margin:9px 10px; background:none; vertical-align:middle; overflow:hidden}
+
+.form-filed-item .form-filed-code{width: 100px !important;height: 48px;display:inline-block; *display:inline;*zoom:1;margin:0px 2px; vertical-align:middle; overflow:hidden; cursor:pointer; background:#fff}
+.form-filed-item .form-filed-code img{border:0px;margin:0px; vertical-align:middle;margin:15px 10px;}
+.form-filed-item .form-filed-txt{height: 48px; line-height:48px; display:inline-block; *display:inline;*zoom:1;margin:0px; vertical-align:middle}
+.form-filed-item .form-filed-txt.find{line-height:1.5;width:125px;_width:130px; text-align:right }
+.form-filed-item .form-filed-txt.find a{color:#fe783d !important;font-size: 14px !important; }
+.form-filed-item .form-filed-txt.find a:hover{color:#fe783d !important;font-size: 14px !important;text-decoration:underline   }
+.form-filed-item .form-filed-txt.tishi{height: auto !important;height: 48px;min-height:48px;_height:48px;line-height:1.8;font-size:12px}
+
+
+.form-filed-item .form-filed-zhuce{  color:#929091; text-align:right}
+.form-filed-item .form-filed-zhuce a{color:#fe783d !important;font-size: 14px !important; }
+.form-filed-item .form-filed-zhuce a:hover{color:#fe783d;font-size: 14px; text-decoration:underline}
+
+.form-filed-item .form-filed-fanhui{width:370px;background:url(/web/20160319101919im_/http://moadr.com/images/back.png) no-repeat 0 center;_background:url(/web/20160319101919im_/http://moadr.com/images/back.jpg) no-repeat 0 center;text-align:center;  width: 384px !important;height:40px; line-height:40px}
+.form-filed-item .form-filed-fanhui a{color:#929292;}
+.form-filed-item .form-filed-fanhui a:hover{color: #929292;}
+
+
+.form-filed-item .form-filed-label{color:#929091;font-size:14px;display:inline-block; *display:inline;*zoom:1; width:100px;}
+.form-filed-item .form-filed-label span{ float:right;font-size:14px;color:#929292}
+.form-filed-item .form-filed-label span a{color:#fe783d;}
+.form-filed-item .form-filed-label span a:hover{color: #fe783d;text-decoration:underline}
+
+.form-filed-item .form-filed-label2{color:#fe783d;font-size:24px; font-weight:300; text-align:center;margin:0px auto 30px auto;}
+.form-filed-item .form-filed-label3{ line-height:1.8;color:#929091;font-size:14px; font-weight:300; text-align:center;margin:0px auto 30px auto;}
+
+.form-filed-item .form-filed-radio{display:inline-block; *display:inline;*zoom:1;margin:0px 15px 0px 0px; vertical-align:middle}
+.form-filed-item .form-filed-radio input[type=radio]{ vertical-align:middle;margin:0px;cursor:pointer}
+.form-filed-item .form-filed-radio label{ vertical-align:middle;margin:0px; cursor:pointer}
+.form-filed-item .form-filed-radio a{ vertical-align:middle;margin:0px;cursor:pointer}
+
+.form-filed-item .form-filed-checkbox{display:inline-block; *display:inline;*zoom:1;margin:0px 15px 0px 0px; vertical-align:middle}
+.form-filed-item .form-filed-checkbox input[type=checkbox]{ vertical-align:middle;margin:0px;cursor:pointer}
+.form-filed-item .form-filed-checkbox label{ vertical-align:middle;margin:0px; cursor:pointer}
+.form-filed-item .form-filed-checkbox a{ color:#fe783d ;vertical-align:middle;margin:0px;cursor:pointer}
+
+.form-filed-card{width:250px;height:204px;background:url(/web/20160319101919im_/http://moadr.com/images/shangchuanzhengjian.jpg) no-repeat center;display:inline-block; *display:inline;*zoom:1; vertical-align:middle;padding:3px;}
+.form-filed-card div{max-width:250px;max-height:204px;_width: expression(this.width > 250 ? '250px': true);_height: expression(this.height > 204 ? '204px': true); background:#fff}
+.form-filed-card img{max-width:250px;max-height:204px;_width: expression(this.width > 250 ? '250px': true);_height: expression(this.height > 204 ? '204px': true); }
+.form-filed-upload{width:104px;height:48px;background:url(/web/20160319101919im_/http://moadr.com/images/shangchuan.png) no-repeat center;_background:url(/web/20160319101919im_/http://moadr.com/images/shangchuan.jpg) no-repeat center;display:inline-block; *display:inline;*zoom:1; position:relative; z-index:1; overflow:hidden;vertical-align:top;_margin:0px 0px 0px 5px;}
+.form-filed-upload input{height:900px;overflow: hidden;font-size:900px;position:absolute;right:0px;top:0px; background:none;                        
+    -webkit-opacity: 0; /* older safari/Chrome browsers */   
+    -moz-opacity: 0;  /* Netscape and Older than Firefox 0.9 */  
+  
+    -khtml-opacity: 0;  
+    /* IE9 + etc...modern browsers */  
+    opacity: 0;/*css3*/
+    filter:alpha(opacity=0); /* IE 4-9 */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /*IE8*/
+    cursor:pointer;margin:0px; background:transparent;border:none;z-index:1; display:none}
+
+.form-filed-item a.form-filed-btn{width:367px;height:48px;background:url(/web/20160319101919im_/http://moadr.com/images/user-btn.jpg) no-repeat center center; line-height:48px; text-align:center;display:inline-block; *display:inline;*zoom:1; vertical-align:middle; font-size:18px;color:#fff; letter-spacing:5px}
+.form-filed-item a.form-filed-btn-blue{width:175px;height:48px;margin:0px 12px 0px 0px;background:url(/web/20160319101919im_/http://moadr.com/images/user-btn-blue.jpg) no-repeat center center; line-height:48px; text-align:center;display:inline-block; *display:inline;*zoom:1; vertical-align:middle; font-size:18px;color:#fff; letter-spacing:5px}
+.form-filed-item a.form-filed-btn-gray{width:175px;height:48px;background:url(/web/20160319101919im_/http://moadr.com/images/user-btn-gray.jpg) no-repeat center center; line-height:48px; text-align:center;display:inline-block; *display:inline;*zoom:1; vertical-align:middle;font-size:18px;color:#fff;letter-spacing:5px}
+.form-filed-item a.form-filed-btn:hover,.form-filed-item a.form-filed-btn-blue:hover,.form-filed-item a.form-filed-btn-gray:hover{color:#fff}
+
+
+/*下拉菜单*/
+.single-select{ position:relative;display:inline-block; *display:inline;*zoom:1; z-index:10; vertical-align:middle;  vertical-align:middle; cursor:pointer;  }
+.single-select .boxwrap{ display:inline-block; vertical-align:middle; }
+.single-select .select-tit{ position:relative; /*display:block; padding:5px 38px 5px 10px; min-width:40px; line-height:20px; height:20px; border:solid 1px #dbdbdb; text-decoration:none; background:#fff; */text-decoration:none;white-space:nowrap; word-break:break-all; width: 337px !important;height: 48px; line-height:48px; display:block;padding:0px 15px;}
+.single-select .select-tit span{ display:inline-block; color:#333; font-size:12px; vertical-align:middle; }
+.single-select .select-tit i{ position:absolute; right:0; top:0; display:block; width:28px; height:100%; border-left:1px solid #dbdbdb; background:url(/web/20160319101919im_/http://moadr.com/images/select-tit.png)  no-repeat center center;_background:url(/web/20160319101919im_/http://moadr.com/images/select-tit.gif)  no-repeat center center; }
+.single-select .select-items{ display:none; position:absolute; left:0; top:50px; /*overflow:hidden;*/ }
+.single-select .select-items ul{ position:relative; padding:5px; min-width:355px;_width:355px; max-height:280px; border:1px solid #dbdbdb; background:#fff; overflow-y:auto; overflow-x:hidden; }
+.single-select .select-items ul li{ display:block; padding:4px 10px; line-height:20px; font-size:12px; color:#666; white-space:nowrap; cursor:pointer; }
+.single-select .select-items ul li:hover{ color:#fff; text-decoration:none; background:#63b3ca; }
+.single-select .select-items ul li.selected{ color:#FFF; background:#63b3ca; }
+.single-select .arrow{ display:none; position:absolute; left:15px; top:35px; width:21px; height:11px; text-indent:-9999px; background:none; }
+
+
+.Validform_checktip{ margin:0px 0px 0px 20px; line-height:20px; height:20px;  overflow:hidden; color:#999; font-family:'宋体'; font-size:13px;display:inline-block; *display:inline;*zoom:1; vertical-align:middle;  }
+.Validform_right{ color:#71b83d; padding-left:20px; background:url(/web/20160319101919im_/http://moadr.com/images/valid_icons.png) no-repeat -40px -18px; display:inline-block; *display:inline;*zoom:1; vertical-align:middle;}
+.Validform_wrong{ color:red; padding-left:20px; white-space:nowrap; background:url(/web/20160319101919im_/http://moadr.com/images/valid_icons.png) no-repeat -20px -38px; display:inline-block; *display:inline;*zoom:1; vertical-align:middle;}
+.Validform_loading{ padding-left:20px; background:url(/web/20160319101919im_/http://moadr.com/images/icon_onload.gif) no-repeat left center; display:inline-block; *display:inline;*zoom:1; vertical-align:middle;}
+.Validform_error{ background:#FEFBD3; }
+
+#Validform_msg{color:#7d8289; font: 12px/1.5 tahoma, arial, \5b8b\4f53, sans-serif; width:280px; -webkit-box-shadow:2px 2px 3px #aaa; -moz-box-shadow:2px 2px 3px #aaa; background:#fff; position:absolute; top:0px; right:50px; z-index:99999; display:none;filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#999999'); box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);display:inline-block; *display:inline;*zoom:1; vertical-align:middle;}
+#Validform_msg .iframe{ position:absolute; left:0px; top:-1px; z-index:-1;display:inline-block; *display:inline;*zoom:1; vertical-align:middle;}
+#Validform_msg .Validform_title{ position:relative; line-height:35px; height:35px; text-align:left; font-weight:bold; padding:0 10px; color:#fff; background:#33B5E5; display:inline-block; *display:inline;*zoom:1; vertical-align:middle;}
+#Validform_msg a.Validform_close:link,#Validform_msg a.Validform_close:visited{ line-height:30px; position:absolute; right:10px; top:0px; color:#fff; text-decoration:none; }
+#Validform_msg a.Validform_close:hover{color:#ccc;}
+#Validform_msg .Validform_info{padding:10px;border:1px solid #bbb; border-top:none; text-align:left;}
+
+
+label{
+padding-left:400px;
+float: left;
+width: 120px;
+font-weight: bold;
+}
+
+input, textarea{
+width: 300px;
+margin-bottom: 5px;
+}
+
+textarea{
+width: 300px;
+height: 150px;
+}
+
+.boxes{
+width: 1em;
+}
+
+#btnSubmit{
+margin-left: 520px;
+margin-top: 5px;
+width: 90px;
+}
+
+br{
+clear: left;
+}
+
+
+.msg-big{ background:url('/web/20160319101919im_/http://moadr.com/images/msg-bg.png') repeat; position:fixed;top:0px;bottom:0px;left:0px;right:0px; z-index:999999}
+.msg-small{border:1px solid #ddd; border-radius:5px; background:#fff;padding:10px;position:fixed;top:0px;left:50%; margin:210px 0px 0px -160px; z-index:1000000;width:300px;}
+.msg-small .msg-tool{width:100%;border-bottom:1px dotted #dadada;padding:0px 0px 5px 0px; font-weight:bold}
+.msg-small .msg-tool span{padding:0px 10px ; color:#f36302; font-size:16px; display:inline-block;border-left:2px solid #f36302;margin-left:-1px; font-weight:bold}
+.msg-small .msg-content{width:100%;border-radius:5px;margin:5px 0px; font-size:14px;color:#a1a1a1;  padding:5px 8px;}
+.msg-small .msg-footer{ text-align:right}
+.msg-small .msg-footer .msg-btn-confirm{ margin:0px 5px; text-align:center; letter-spacing:5px;  display:inline-block; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; background-color:#da5205; padding:3px 8px 2px 8px; font-size:14px; border:1px solid #ff6610; background-image:linear-gradient(bottom, #da5205 0, #fa8d92 100%); background-image:-moz-linear-gradient(bottom, #da5205 0, #fa8d92 100%); background-image:-webkit-linear-gradient(bottom, #da5205 0, #fa8d92 100%); box-shadow:0 1px 0 #fa8d92 inset, 0 1px 2px rgba(0,0,0,0.5); border-radius:5px; color:#fff; text-shadow:0 1px rgba(0,0,0,0.2);}
+
+/*loading*/
+.loading{ background:rgba(0, 0, 0, 0.5) url('/web/20160319101919im_/http://moadr.com/images/loading.gif') no-repeat center;position:fixed;top:0px;bottom:0px;left:0px;right:0px; z-index:999999;/*filter:alpha(opacity=90); -moz-opacity:0.9; opacity:0.9;*/}
+
+.ServiceDiv{height:auto;border:1px solid #dadbdb;margin-top:25px;font-size:14px;line-height:1.8;padding:30px;}
+.content_Title{text-align:center;height:auto;font-size:18px;font-weight:bold;}
+.ServiceDiv b{font-size:15px;font-weight:bold;}
+.ServiceDiv p{margin:10px 0px;font-size:13px;}
+.contact{margin-top:25px;font-size:14px;line-height:1.8; }
+.contact b{font-size:15px;font-weight:bold;}
+.contact p{margin:5px 0px;font-size:13px; font-family:'黑体'; font-weight:normal;}
+.contact p img{ vertical-align:middle}
+.contact .map{width:550px;height:450px; float:left}
+.contact .address{width:270px;height:450px;padding:0px 0px 0px 30px; float:left;}
+
+
+#onlineGuest{position:fixed;right: 0;/*top:425px;*/top:50%;margin-top:-108px;z-index:100;_position: absolute;/*_top: expression(eval(document.documentElement.clientHeight<800?document.documentElement.scrollTop+225:document.documentElement.scrollTop+425));*/}
+#onlineGuest .guest_open{position: absolute;top: 0;right: 0;width: 0px;padding: 46px 0 0 0;background: url(/web/20160319101919im_/http://moadr.com/images/JUMI_kefu_icon.png) no-repeat -46px 0;_background-image: url(/web/20160319101919im_/http://moadr.com/images/JUMI_kefu_icon.gif);overflow: hidden;}
+#onlineGuest .guest_open .close{display: block;position: absolute;width: 22px;height: 22px;right: 0;top: 0;text-indent: -9999px;}
+#onlineGuest .guest_open div{padding-bottom: 5px;background:url(/web/20160319101919im_/http://moadr.com/images/JUMI_kefu_bg.png) no-repeat -268px bottom;width: 134px;height:165px;_position:relative;}
+#onlineGuest .guest_open div .devTel{color:#fff;text-align:center;}
+#onlineGuest .guest_open ul{background: url(/web/20160319101919im_/http://moadr.com/images/JUMI_kefu_bg.png) repeat-y 0 0 #939393;_margin-top:-25px;}
+#onlineGuest .guest_open li{height: 32px;line-height: 32px;padding: 0 15px 2px;background: url(/web/20160319101919im_/http://moadr.com/images/JUMI_kefu_bg.png) no-repeat -134px bottom;font-size:12px;}
+#onlineGuest .guest_open li a{color: #fff;display: block;position: relative;zoom: 1;padding-left: 35px;}
+#onlineGuest .guest_open li a:hover{text-decoration: none;}
+#onlineGuest .guest_open li a i{display: inline-block;position: absolute;left: 10px;top: 6px;width: 21px;height: 21px;background: url(/web/20160319101919im_/http://moadr.com/images/JUMI_kefu_icon.png) no-repeat 9999px 9999px; _background-image: url(/web/20160319101919im_/http://moadr.com/images/JUMI_kefu_icon.gif);}
+#onlineGuest .guest_open li a i.qq{background-position: -86px -56px;}
+#onlineGuest .guest_open li a i.online{background-position: -56px -56px;}
+#onlineGuest .guest_open li a i.txt{background-position: -56px -86px;}
+#onlineGuest .guest-close{position: absolute;top: 5px;right: 0;width: 34px;height: 127px;padding: 0;background: url(/web/20160319101919im_/http://moadr.com/images/JUMI_kefu_icon.png) no-repeat 0 0;_background-image: url(/web/20160319101919im_/http://moadr.com/images/JUMI_kefu_icon.gif);cursor: pointer;overflow: hidden;}
+/*
+     FILE ARCHIVED ON 10:19:19 Mar 19, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:08:24 Jun 08, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 570.154 (3)
+  esindex: 0.008
+  captures_list: 610.589
+  CDXLines.iter: 19.113 (3)
+  PetaboxLoader3.datanode: 380.172 (5)
+  exclusion.robots: 0.334
+  exclusion.robots.policy: 0.315
+  RedisCDXSource: 16.337
+  PetaboxLoader3.resolve: 569.024 (3)
+  load_resource: 435.942
+*/
