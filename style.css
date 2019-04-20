@@ -1,4 +1,4 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 /* CSS Document */
 body {
 	margin:0px auto;
@@ -185,8 +185,8 @@ position: relative;-webkit-border-radius:21px 21px 21px 21px;-moz-border-radius:
 
 .advertisers-2{height:10px; background:url(images/mobileads.jpg) no-repeat center center;margin:0px auto;}
 .advertisers-2 .content{width: 100%;margin:0px auto;padding:240px 0px 0px 0px; }
-.advertisers-2 .content .advertisers-text{float:left;width:222px;height:20px;background:url() no-repeat 0 center; margin-left:80px;_margin-left:60px; margin-top:80px;padding:30px 30px 30px 30px;cursor:pointer; text-align:center; overflow:hidden;position: relative;-webkit-border-radius:282px 282px 282px 282px;-moz-border-radius:282px 282px 282px 282px;border-radius:282px 282px 282px 282px;behavior: url(/web/20160319101919im_/http://moadr.com/PIE.htc);}
-.advertisers-2 .content .advertisers-text:hover{background: url(/web/20160319101919im_/http://moadr.com/images/ggzb2.png) no-repeat 0 center;  }
+.advertisers-2 .content .advertisers-text{float:left;width:222px;height:20px;background-color:black; margin-left:80px;_margin-left:60px; margin-top:80px;padding:30px 30px 30px 30px;cursor:pointer; text-align:center; overflow:hidden;position: relative;-webkit-border-radius:282px 282px 282px 282px;-moz-border-radius:282px 282px 282px 282px;border-radius:282px 282px 282px 282px;behavior: url(/web/20160319101919im_/http://moadr.com/PIE.htc);}
+.advertisers-2 .content .advertisers-text:hover{background: url(https://moadr.com/images/ggzb2.png) no-repeat 0 center;  }
 .advertisers-2 .content .advertisers-text h1{color:#fff;font-size:31px; font-family:'微软雅黑';padding:20px; 0px 0px 0px; }
 .advertisers-2 .content .advertisers-text p{color:#fff;font-size:14px; font-family:'微软雅黑';padding:10px 0px 0px 0px; line-height:1.5; text-align:left;}
 
