@@ -9,7 +9,7 @@
    //undefined what if not passing in?
    $jsonp_callback = isset($_GET['callback'])?$_GET['callback']:(isset($_GET['jsoncallback'])?$_GET['jsoncallback']:null);
    //echo $jsonp_callback;
-   $data = '{"response": {"SubMethod": {"Method":"DirectResponse", "URL": "http://moadr.com"}}}';
+   $data = '{"response": {"SubMethod": {"Method":"DirectResponse", "URL": "http://mr4.biz"}}}';
    //$json = json_encode($data);
    header('Content-Type: application/json');
 
